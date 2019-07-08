@@ -6,7 +6,7 @@ var tempb = object_b.value.toString().split(',');
     var t = 0;
 for(var x in collection_a) {
         for(var y in objectB) {
-            if(collection_collectionA[x].value == objectB[y]) {
+            if(collection_collectionA[x].value == objectB[y].value) {
                 asw[t] = collectionA[x].value;
                 t++
             }
