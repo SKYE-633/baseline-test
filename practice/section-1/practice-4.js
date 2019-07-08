@@ -4,10 +4,10 @@ function collectSameElements(collectionA, objectB) {
     var tempb = object_b.value.toString().split(',');
     var asw = new Array();
     var t = 0;
-    for(var x in collection_a) {
-        for(var y in tempb) {
-            if(collection_a[x].key == tempb[y]) {
-                asw[t] = collection_a[x].key;
+    for(var x in collectionA) {
+        for(var y in objectB) {
+            if(collectionA[x].key == objectB[y]) {
+                asw[t] = collectionA[x].key;
                 t++
             }
         }
