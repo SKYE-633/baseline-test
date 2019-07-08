@@ -4,7 +4,7 @@ function collectSameElements(collectionA, collectionB) {
 int i;
 int j;
 for (var i = 0; i < collectionA.length; i++) {
-  for (var j = 0; j < collectionB.length; j++) {
+  for (var j = 0; j < (A.indexOf(collectionB[j]).length; j++) {
     if (collectionA[i] == collectionB[j]){
       const result = collectSameElements(collectionA, collectionB);
       console.log(result);
